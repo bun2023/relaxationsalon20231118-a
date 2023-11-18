@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- swiper -->
+  <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">リラクゼーションサロン</a>
+    </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="staff.html">staff</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="info.html">info</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li class="sp-only"><a href="head.html">ヘッドスパとは</a></li>
+          <li class="sp-only"><a href="body.html">ボディケアとは</a></li>
+          <li class="sp-only"><a href="aroma.html">リンパアロマとは</a></li>
+          <li class="tel pc-only"><p>TEL 0120-34-5678</p></li>
+        </ul>
+      </nav>
+      <div class="fas fa-bars sp-only" id="menu-btn"></div>
+  </header>
+
+
+  <!-- visual -->
+  <!-- <section> -->
+    <div class="swiper page">
+      <div class="swiper-wrapper page-visual">
+        <div class="page-img"><img src="img/contact01.jpg" alt=""></div>
+      </div>
+    </div>
+  <!-- </section> -->
+  <!-- end visual -->
+
+  <!-- contact-area -->
+  <section class="contact-area">
+    <h2 class="heading">contact</h2>
+    <div class="container">
+      <div class="contact-box">
+        <p>ご相談・ご質問は、下記フォームより<br class="sp-only">必須項目をご入力の上、ご連絡ください。</p>
+      </div>
+
+      <div class="contact-form">
+        <form action="">
+          <div>
+            <label for="name">お名前<span>必須</span></label>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="email">メールアドレス<span>必須</span></label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <label for="select">お問い合わせ項目<span>必須</span></label>
+            <select name="select" id="">
+              <option value="ご予約">ご予約</option>
+              <option value="サービスについて">サービスについて</option>
+              <option value="その他">その他</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">お問い合わせ内容<span>必須</span></label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+        </form>
+        <input type="submit" class="button" value="送信する">
+      </div>
+    </div>
+  </section>
+  <!-- end contact-area -->
+
+  <!-- menu-item -->
+  <section class="contact-links service-links">
+    <div class="container">
+      <ul>
+        <li class="link1"><a href="head.html">ヘッドスパとは</a></li>
+        <li class="link2"><a href="body.html">ボディケアとは</a></li>
+        <li class="link3"><a href="aroma.html">リンパアロマとは</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- end menu-item -->
+
+  <!-- access -->
+  <section class="access">
+    <h2 class="heading">map</h2>
+    <div class="container">
+      <div class="access-wrapper">
+        <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3267.0222339143193!2d135.73254777575897!3d35.03117367280412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600107ed7bf0e06d%3A0x5b26fec16c2eee1a!2z5YyX6YeO5aSp5rqA5a6u!5e0!3m2!1sja!2sjp!4v1700273898076!5m2!1sja!2sjp" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="access-address">
+          <h3>リラクゼーションサロン</h3>
+          <p>〒xxx-xxxx 京都市中京区xxxxxxx10-39</p>
+          <p>TEL 0120-34-5678</p>
+          <p>※施術中は電話に出られないためご予約はwebからお願い致します</p>
+          <p>営業時間　10:00～22:00</p>
+          <p>定休日　　不定休</p>
+          <p>駐車場　　有り3台</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end access -->
+ 
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="address">
+        <ul>
+          <li><h4>リラクゼーションサロン</h4></li>
+          <li>〒xxx-xxxx 京都市中京区xxxxxxx10-39</li>
+          <li>TEL 0120-34-5678</li>
+          <li>※施術中は電話に出られないためご予約はwebからお願い致します</li>
+          <li>email xxxxxx.gmail.com</li>
+          <li>HP xxxxxx.com</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="staff.html">staff</a></li>
+          <li><a href="menu.html">menu</a></li>
+          <li><a href="info.html">info</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links sns-link">
+        <ul>
+          <li><a href="#"><img src="img/sns03.SVG" alt=""></a></li>
+          <li><a href="#"><img src="img/sns05.SVG" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+   
+    <div class="copy">
+      <p>&copy;2023/11 <span>HiroDesign</span></p>
+    </div>
+  </footer>
+  <!-- end footer -->
+ 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js" defer></script>
+  
+</body>
+</html>
