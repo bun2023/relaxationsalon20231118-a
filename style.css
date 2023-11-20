@@ -1029,6 +1029,18 @@ footer
     font-size: 2rem;
     text-align: center;
   }
+    
+  .about .container .about-box {
+    flex-wrap: wrap;
+  }
+
+  .service .container .service-item {
+    flex-wrap: wrap;
+  }
+
+  .staff .container .profile-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ==================
