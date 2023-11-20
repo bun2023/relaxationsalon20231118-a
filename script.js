@@ -5,7 +5,7 @@ const swiper = new Swiper(".swiper", {
   speed: 5000, // スライドアニメーションのスピード（ミリ秒）
   loop: true,
   autoplay: { // 自動再生させる
-    // display: 3000,
+    display: 3000,
   },
   // navigation: {
   //   nextEl: ".swiper-button-next",
